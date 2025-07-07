@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main_page {
+    display: grid;
+    outline: 1px solid black;
+    grid-template-columns: 25px auto 25px;
+    grid-template-rows: 50px auto 25px;
+    height: 100%;
+}
+
+.central_area {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    grid-template-columns: 4fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+navbar {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    outline: 1px solid black;
+}
