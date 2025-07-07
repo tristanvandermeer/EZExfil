@@ -11,6 +11,8 @@ html, body {
     height: 100%;
 }
 
+/* Check if the grid works in the morning, I can't remember */
+
 .central_area {
     grid-row-start: 2;
     grid-column-start: 2;
@@ -21,6 +23,8 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+/* Navbar needs work, buttons, etc. */
 
 navbar {
     grid-row-start: 1;
